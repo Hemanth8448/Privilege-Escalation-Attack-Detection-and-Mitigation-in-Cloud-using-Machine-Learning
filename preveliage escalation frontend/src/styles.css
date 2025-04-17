@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://source.unsplash.com/1600x900/?cybersecurity,hacking") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container */
+  .App {
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 450px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  h2 {
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  /* Form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input Fields */
+  form div {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Button */
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Result Styling */
+  .result {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Attack Found */
+  .attack {
+    color:red
+  }
+  
+  /* No Attack Found */
+  .no-attack {
+    color: green;
+  }
+  
